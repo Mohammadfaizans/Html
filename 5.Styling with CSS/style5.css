@@ -1,0 +1,43 @@
+.main{
+    width: 40vw;
+    height: 100vw;
+    margin: auto;
+}
+h2{
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+ 
+}
+
+.main-left{
+    width: 50%;
+    height: 20%;
+    background-color: lightgray;
+    display: inline-block;
+   
+    
+}
+.asi{
+  float: right;
+   width: 45%;
+   height: 9%;
+   background-color: lightgray;
+
+   
+}
+.sec h2{
+   float: right;
+   margin-top: -130px;
+   width: 41%;
+   height: 29%;
+ 
+   
+}
+    
+position: absolute;
+   right:  30%;
+   top: 50%;
+   width: 18%;
+   height: 18%;
+   background-color: lightgray;

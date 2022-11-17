@@ -1,0 +1,38 @@
+p{
+    
+    padding: 10px;
+}
+.info{
+  background-color: aqua;
+  border-left: 10px solid lightskyblue;
+}
+
+.war{
+    background-color: lightpink;
+    border-left: 10px solid red;
+}
+
+section{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border: 10px solid black;
+}
+
+.text{
+    margin-left: 20px;
+    padding: 0;
+}
+
+.button{
+    size: 100%;
+   color: #ffff;
+   background-color: black;
+   padding: 5px;
+   
+}
