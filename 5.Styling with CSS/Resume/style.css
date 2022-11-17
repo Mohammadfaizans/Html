@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    gap: 15px;
+}
+
+.card{
+    background-color: white;
+    box-shadow: 4px 4px 4px #ccc;
+}
+
+/* Css for left column */
+
+.left-column{
+    flex-basis: 100% ;
+}
+
+ i{
+    margin-right: 5%;
+ }
+.contact, .skills, .languages {
+    padding: 5px;
+}
+.left-desc{
+    margin-inline: 4%;
+}
+.skill-head, .language-head{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 4%;
+}
+
+.img-box{
+    position: relative;
+}
+.img-box img{
+    width: 100%;
+}
+
+.img-box .username{
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+}
+ul {
+    list-style: none;
+}
+ .set {
+    background-color: rgb(176, 211, 215);
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* Css for right column */
+
+.right-column{
+    flex-basis: 100%;
+    padding: 10px;
+}
+.work-head, .education-head {
+    padding: 10px;
+    margin-left: 3%;
+}
+.work i, .education i {
+    margin-right: 1%;
+    margin-bottom: 3%;
+}
+.work h3,.education h3 {
+    margin-left: 4%;
+    margin-bottom: 1%;
+}
+
+.date{
+    margin-left: 4%;
+}
+
+hr{
+    margin: 3%;
+}
+.education-head{
+    margin-top: 5%;
+}
+.work, .education {
+    padding-bottom: 10px;
+}
+
+@media screen and (min-width: 641px) {
+    .container{
+        flex-direction: row;
+        width: 70%;
+    }
+    
+    .left-column{
+        flex-basis: 25% ;
+    }
+    
+    .right-column{
+        flex-basis: 70%;
+    
+    }
+
+}
