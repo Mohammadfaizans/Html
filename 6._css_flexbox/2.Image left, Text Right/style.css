@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+p{
+    margin: 10px;
+}
+
+.contanier{
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(236, 241, 241);
+    margin: auto;
+    gap: 20px;
+}
+
+.sub-heading{
+    text-align: center;
+    margin-top: 30px;
+}
